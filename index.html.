@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatería</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Bienvenido a la tienda de subnormales</h1>
+    </header>
+
+    <!-- Productos etap -->
+    <main>
+        <h2>Productos</h2>
+        <div>
+            <div class="product">
+                <h3>chema</h3>
+                <p>es subnormal.</p>
+                <p><strong>Precio: €1</strong></p>
+                <button class="buy-button" data-product="chema">comprar mongolo</button>
+            </div>
+            <div class="product">
+                <h3>chiquitin</h3>
+                <p>maldad concentrada</p>
+                <p><strong>Precio: €2</strong></p>
+                <button class="buy-button" data-product="chiquitin">comprar enano</button>
+            </div>
+        </div>
+<section id="cart">
+    <h2>Carrito de compras</h2>
+    <ul id="cart-items"></ul>
+</section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>los mayores fenomenos de aqualia</p>
+    </footer>
+
+    <!-- Conectar JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
